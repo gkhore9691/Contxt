@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: contxt-db
+    restart: unless-stopped
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: contxt
+      POSTGRES_PASSWORD: contxt_dev_password
+      POSTGRES_DB: contxt
+    volumes:
+      - contxt_pgdata:/var/lib/postgresql/data
+
+volumes:
+  contxt_pgdata:
