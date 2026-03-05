@@ -2,7 +2,7 @@ import PricingSection from '@/components/marketing/PricingSection'
 import CTASection from '@/components/marketing/CTASection'
 
 export const metadata = {
-  title: 'Pricing — Contxt',
+  title: 'Pricing — Brain Pack',
   description: 'Simple, transparent pricing for individuals and teams.',
 }
 

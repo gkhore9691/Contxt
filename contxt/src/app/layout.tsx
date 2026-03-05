@@ -18,7 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Contxt — Load Your Brain Into Any AI Agent',
+  title: 'Brain Pack — Load Your Brain Into Any AI Agent',
   description:
     'Build structured Context Packs for AI coding agents. Load your full project context into Claude Code, Cursor, Windsurf, and more in 30 seconds.',
 }

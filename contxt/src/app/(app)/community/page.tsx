@@ -1,7 +1,7 @@
 import CommunityFeed from '@/components/app/CommunityFeed'
 
 export const metadata = {
-  title: 'Community — Contxt',
+  title: 'Community — Brain Pack',
 }
 
 export default function CommunityPage() {

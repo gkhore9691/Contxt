@@ -25,9 +25,9 @@ export default function Footer() {
           <div className="max-w-xs">
             <div className="flex items-center gap-2.5 mb-3">
               <span className="flex h-6 w-6 items-center justify-center rounded-md bg-[var(--cx-accent)] font-mono text-[10px] font-bold text-[var(--bg-base)]">
-                C
+                B
               </span>
-              <span className="font-sans text-sm font-semibold text-[var(--text-primary)]">Contxt</span>
+              <span className="font-sans text-sm font-semibold text-[var(--text-primary)]">Brain Pack</span>
             </div>
             <p className="font-sans text-[13px] leading-relaxed text-[var(--text-secondary)]">
               Load your full project context into any AI agent in 30 seconds.
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 flex items-center justify-between border-t border-[var(--bg-border)] pt-6">
-          <p className="font-sans text-xs text-[var(--text-muted)]">&copy; 2026 Contxt</p>
+          <p className="font-sans text-xs text-[var(--text-muted)]">&copy; 2026 Brain Pack</p>
           <p className="font-sans text-xs text-[var(--text-muted)]">Made for developers, by developers.</p>
         </div>
       </div>

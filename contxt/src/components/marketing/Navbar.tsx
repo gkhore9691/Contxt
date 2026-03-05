@@ -11,10 +11,10 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3.5">
         <Link href="/" className="flex items-center gap-2.5">
           <span className="flex h-6 w-6 items-center justify-center rounded-md bg-[var(--cx-accent)] font-mono text-[10px] font-bold text-[var(--bg-base)]">
-            C
+            B
           </span>
           <span className="font-sans text-sm font-semibold tracking-tight text-[var(--text-primary)]">
-            Contxt
+            Brain Pack
           </span>
         </Link>
 

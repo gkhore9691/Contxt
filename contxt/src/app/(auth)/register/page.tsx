@@ -31,8 +31,8 @@ export default function RegisterPage() {
       <div className="w-full max-w-sm">
         <div className="mb-8 text-center">
           <Link href="/" className="inline-flex items-center gap-2.5 mb-8">
-            <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[var(--cx-accent)] font-mono text-xs font-bold text-[var(--bg-base)]">C</span>
-            <span className="font-sans text-base font-semibold text-[var(--text-primary)]">Contxt</span>
+            <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[var(--cx-accent)] font-mono text-xs font-bold text-[var(--bg-base)]">B</span>
+            <span className="font-sans text-base font-semibold text-[var(--text-primary)]">Brain Pack</span>
           </Link>
           <h1 className="font-display text-2xl text-[var(--text-primary)]">Create your account</h1>
           <p className="mt-1.5 font-sans text-sm text-[var(--text-secondary)]">Free forever. Build your first pack in 5 minutes.</p>

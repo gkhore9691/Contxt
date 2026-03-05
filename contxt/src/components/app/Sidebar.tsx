@@ -27,8 +27,8 @@ export default function Sidebar() {
   return (
     <aside className="fixed left-0 top-0 h-screen w-56 border-r border-[var(--bg-border)] bg-[var(--bg-base)] flex flex-col">
       <div className="flex items-center gap-2.5 px-5 py-4 border-b border-[var(--bg-border)]">
-        <span className="flex h-6 w-6 items-center justify-center rounded-md bg-[var(--cx-accent)] font-mono text-[10px] font-bold text-[var(--bg-base)]">C</span>
-        <span className="font-sans text-sm font-semibold text-[var(--text-primary)]">Contxt</span>
+        <span className="flex h-6 w-6 items-center justify-center rounded-md bg-[var(--cx-accent)] font-mono text-[10px] font-bold text-[var(--bg-base)]">B</span>
+        <span className="font-sans text-sm font-semibold text-[var(--text-primary)]">Brain Pack</span>
       </div>
 
       <nav className="flex-1 mt-4 px-3">

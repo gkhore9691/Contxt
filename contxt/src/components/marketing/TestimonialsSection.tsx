@@ -3,13 +3,13 @@
 import { motion } from 'framer-motion'
 
 const testimonials = [
-  { quote: "I used to spend 15 minutes at the start of every Claude Code session re-explaining my Next.js setup. Now I paste my Contxt pack and I'm coding in 30 seconds.", name: 'Rohan M.', role: 'Indie Hacker' },
+  { quote: "I used to spend 15 minutes at the start of every Claude Code session re-explaining my Next.js setup. Now I paste my Brain Pack pack and I'm coding in 30 seconds.", name: 'Rohan M.', role: 'Indie Hacker' },
   { quote: 'Our team of 5 devs all use the same context pack. The AI output is finally consistent across PRs.', name: 'Divya S.', role: 'Tech Lead' },
   { quote: 'The community library alone is worth it. Found a perfect Next.js 14 pack, forked it, tweaked 3 fields, done.', name: 'Alex K.', role: 'Freelance Dev' },
   { quote: 'Switched from Cursor to Claude Code and my context pack just worked. That portability is everything.', name: 'Marcus T.', role: 'Full Stack Dev' },
   { quote: "Fork a community pack, edit 10%, ship. That's my entire onboarding flow for new projects now.", name: 'Priya N.', role: 'Engineering Manager' },
   { quote: 'I maintain 3 OSS repos. Published a context pack for each. Contributors now get consistent AI output.', name: 'Chen W.', role: 'OSS Maintainer' },
-  { quote: 'Contxt cut my onboarding time for new AI tools from an hour to literally 2 minutes.', name: 'Sarah L.', role: 'Senior Engineer' },
+  { quote: 'Brain Pack cut my onboarding time for new AI tools from an hour to literally 2 minutes.', name: 'Sarah L.', role: 'Senior Engineer' },
   { quote: 'The JSON export format is great — I pipe it straight into my custom AI automation scripts.', name: 'James R.', role: 'Dev Tooling' },
 ]
 
