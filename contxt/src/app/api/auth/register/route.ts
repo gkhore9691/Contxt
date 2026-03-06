@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import bcrypt from 'bcryptjs'
 import { db } from '@/lib/db'
 import { users } from '@/lib/db/schema'
-import { signToken, setAuthCookie } from '@/lib/auth/jwt'
+import { signToken, buildCookieHeader } from '@/lib/auth/jwt'
 import { registerSchema } from '@/lib/pack/schema'
 import { eq } from 'drizzle-orm'
 
@@ -59,11 +59,12 @@ export async function POST(request: NextRequest) {
       username: user.username,
     })
 
-    await setAuthCookie(token)
-
-    return NextResponse.json({
+    const response = NextResponse.json({
       user: { id: user.id, email: user.email, username: user.username },
     })
+
+    response.headers.set('Set-Cookie', buildCookieHeader(token))
+    return response
   } catch (error) {
     console.error('Register error:', error)
     return NextResponse.json(

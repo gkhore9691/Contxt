@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server'
-import { removeAuthCookie } from '@/lib/auth/jwt'
+import { buildDeleteCookieHeader } from '@/lib/auth/jwt'
 
 export async function POST() {
-  await removeAuthCookie()
-  return NextResponse.json({ ok: true })
+  const response = NextResponse.json({ ok: true })
+  response.headers.set('Set-Cookie', buildDeleteCookieHeader())
+  return response
 }
